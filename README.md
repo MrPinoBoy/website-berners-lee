@@ -38,7 +38,7 @@ I played a bit with the responsive versions trying to figure out what was a good
 ![](/images/smartphone-css.png)
 </details>
 
-### Conclusion
+## Conclusion
 I enjoyed this exercise and managed to get a decent result. There is something therapeutic about fiddling with the CSS and managing to get the same result as the source :). I'm still struggling with the different display modes and how to lay things out correctly on the page using CSS, I need a lot of trial and error to get to what I want. But otherwise I had a great time and am proud of what I achieved :).
 
 Thanks for checking out my work, if you want you can see more of my stuff on [my github](https://github.com/MrPinoBoy) !
