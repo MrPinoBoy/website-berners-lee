@@ -1,0 +1,184 @@
+body {
+    background-color: #EBEBEB;
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7D7D;
+}
+article, nav {
+    position: relative;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    width: 40%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 2px 1px #CCCCCC, 1px 0px 1px #CCCCCC, -1px 0px 1px #CCCCCC ;
+}
+.timberners{
+    display: flex;
+    position: relative;
+    width: 20%;
+    border-radius: 50%;
+    border: 5px solid #CCCCCC;
+    margin: auto;
+}
+h1, h2{
+    text-align: center ;
+}
+h1 {
+    font-size: 200%;
+    font-weight: 900;
+    color: #DD5555;
+}
+h2 {
+    font-weight: 700;
+}
+h2, p{
+    color: #7D7D7D;
+}
+strong {
+    font-weight: 800;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+header p {
+    padding: 0.5%;
+    text-align: justify;
+    font-size: 140%;
+}
+.wikibutton {
+    position: relative;
+    text-align: center;
+    background-color: #DD5555;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 140%;
+    margin: auto;
+    width: 25%;
+    padding: 2% 1% 2% 1%;
+    border-radius: 5px;
+}
+.wikibutton a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav ul {
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+nav li {
+    display: inline-block;
+    width: 20%;
+    color: #CCCCCC;
+    margin: 10% 0% 10% 0%;
+}
+nav li a {
+    color: #CCCCCC;
+    text-decoration: none;
+    font-size: 125%;
+}
+nav li a i {
+    font-size: 125%;
+}
+.greybg {
+    background-color: #CCCCCC;
+}
+table {
+    padding: 1%;
+}
+td.img {
+    width: 20%;
+}
+td{
+    padding: 2%;
+}
+td img {
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+}
+table td h3 {
+    text-align: center;
+}
+table td p {
+    text-align: justify;
+    vertical-align: middle;
+    font-size: 140%;
+}
+@media only screen and (max-width: 640px) {
+    body {
+    font-size: 125%;
+    padding: 1em;
+    }
+    article, nav {
+        display: block;
+        width: 100%;
+    }
+    header p {
+        padding: 5%;
+    }
+    p {
+        word-break: normal;
+        hyphens: auto;
+        text-align: center;
+    }
+    .navtext {
+        display: none;
+    }
+    nav ul {
+        width : 90%;
+        padding: 0;
+        font-size: 150%;
+    }
+    nav li {
+        margin: 5%;
+    }
+    .wikibutton {
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    .timberners {
+        width: 80%;
+    }
+    td.img {
+      width: 100%;
+    }
+    td img {
+        text-align: center;
+        margin: auto;
+    }
+    td {
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 1008px) {
+    body {
+        font-size: 150%;
+    }
+    p {
+        word-break: normal;
+        hyphens: auto;
+        text-align: center;
+    }
+    .navtext {
+        display: none;
+    }
+    article, nav {
+        width: 80%;
+        padding: 5%;
+    }
+    .wikibutton {
+        width: 50%;
+    }
+    td {
+        display: block;
+    }
+    td.img, .timberners {
+        margin: auto;
+        width: 40%;
+    }
+}
