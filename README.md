@@ -43,4 +43,4 @@ I enjoyed this exercise and managed to get a decent result. There is something t
 
 Thanks for checking out my work, if you want you can see more of my stuff on [my github](https://github.com/MrPinoBoy) !
 
-<div style="margin:auto">![](https://media.tenor.com/images/abb5b5ab1fe33e2f43f07064d8da932b/tenor.gif)</div>
+![](https://media.tenor.com/images/abb5b5ab1fe33e2f43f07064d8da932b/tenor.gif)
